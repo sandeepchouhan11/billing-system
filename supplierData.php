@@ -200,11 +200,11 @@ include "connect.php"
 
 
 <!-- update select buttuns -->
-<div class="updateSelect">
-    <div class="up1"><button class="button">Update Select</button></div>
-    <div class="up2"><a href="export.php"><button type="button" class="ecsv">Export As CSV</button></a></div>
-    <div class="up3"><button class="button">Previous</button></div>
-    <div class="up3"><button class="button">Next</button></div>
+<div class="futer-btn">
+    <div class="btn1"><button>Update Select</button></div>
+    <div class="btn2"><a href="export.php"><button type="button" >Export As CSV</button></a></div>
+    <div class="btn3"><button >Previous</button></div>
+    <div class="btn3"><button >Next</button></div>
 </div>
 
 

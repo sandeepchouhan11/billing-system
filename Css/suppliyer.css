@@ -46,6 +46,11 @@ table,td,th {
     border:1px solid;
 }
 
+table a{
+    text-decoration: none;
+    color: rgb(5, 2, 2);
+}
+
 table{
     width: 100%;
     border-collapse:collapse;
@@ -58,33 +63,29 @@ table{
     /* background-color: aquamarine; */
     height: 300px;
     margin: 5px;
-    padding: 27px
+    padding: 0px
 }
 
  /* update select buttuns */
 
- .updateSelect{
+ .futer-btn{
     display: flex; 
     margin: 5px;   
     
  }
 
- .up1{width: 12%}
- .up2{width: 70%}
- .up3{width: 10%}
+ .btn1{width: 12%}
+ .btn2{width: 68%}
+ .btn3{width: 10%}
 
- .button{
+ .futer-btn button{
     width: 100%;
     height: 30px;
  }
 
- .ecsv{width:20%;
+ .btn2 button{width:20%;
 height:30px;}
 
-.iframe{
-    width: 100%;
-    height: inherit;
-}
 
 /* -----------main-dhabord------------- */
 

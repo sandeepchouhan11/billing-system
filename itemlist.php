@@ -77,13 +77,13 @@ include "connect.php";
         </div>
         <!-- </form> -->
         <div class="col5">
-          <input type="text" class="inputsup"  name="" placeholder="Search" id="myInput"  >
+          <input type="text" class="inputsup"  name="" placeholder="Search" id="myInput"  onkeyup="myFunction()">
         </div>
 
 
-        <div class="col6">
+        <!-- <div class="col6">
              <button class="button" onclick="myFunction()" type="button"  ><b>Search</b></button>
-        </div>
+        </div> -->
         </div> 
     <!--------------- navbar end----------------->
     <!-- ----------------------items table and supliyer start------------------>
@@ -241,11 +241,11 @@ include "connect.php";
     </div>
 
 <!-- update select buttuns -->
-<div class="updateSelect">
-    <div class="up1"><button class="button">Update Select</button></div>
-    <div class="up2"><a href="export.php"><button type="button" class="ecsv">Export As CSV</button></a></div>
-    <div class="up3"><button class="button">Previous</button></div>
-    <div class="up3"><button class="button">Next</button></div>
+<div class="futer-btn">
+    <div class="btn1"><button>Update Select</button></div>
+    <div class="btn2"><a href="export.php"><button type="button" >Export As CSV</button></a></div>
+    <div class="btn3"><button >Previous</button></div>
+    <div class="btn3"><button >Next</button></div>
 </div>
 
 </div>
@@ -261,7 +261,7 @@ function myFunction() {
   tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
-  for (i = 1; i < tr.length; i++) {
+  for (i = 0; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("th")[1];
     if (td) {
       txtValue = td.textContent || td.innerText;
